@@ -1,0 +1,17 @@
+.nav__bar {
+  background-color: rgb(155, 108, 108);
+
+  .nav__link {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family:'Indie Flower', cursive;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+.nav__link:hover {
+    color: white;
+    font-family:'Indie Flower', cursive;
+  }
+}

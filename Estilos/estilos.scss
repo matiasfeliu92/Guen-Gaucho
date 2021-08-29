@@ -1,0 +1,75 @@
+@import "./partials/variables";
+@import "./partials/tamañoFuente";
+@import "./partials/navegacion";
+@import "./partials/header";
+@import "./partials/contenidoPaginas";
+@import "./partials/footer";
+@import "./partials/pagina404";
+@import "./partials/mediaQueries";
+
+
+.seccionMates__serv {
+        font-family:'Indie Flower', cursive;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+.productos__camionero {
+    background-image: url("https://scontent.faep8-2.fna.fbcdn.net/v/t1.6435-9/78151590_112394080222000_5813400945677041664_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=rm9GIyXr4nMAX_iY7Jo&_nc_ht=scontent.faep8-2.fna&oh=f44d9c8735dc7da0b35b18024bebae8c&oe=614776DB");
+    background-size:cover;
+    background-position:center;
+    background-color: white;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+
+    .container-fluid:hover {
+        opacity: 0.7;
+        background-color: white;
+        font-weight: bold;
+    }
+}
+
+.productos__torpedo {
+    background-image: url("https://scontent.faep8-1.fna.fbcdn.net/v/t1.6435-9/77390658_118301619631246_4630732467513327616_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=cfBsiqFV_uEAX8DJzZd&_nc_ht=scontent.faep8-1.fna&oh=58058d328eb70184ef5472a5490209d7&oe=61481244");
+    background-size:cover;
+    background-position:center;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+
+    .container-fluid:hover {
+        opacity: 0.7;
+        background-color: white;
+        font-weight: bold;
+    }
+}
+
+.productos__link {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    background-color: rgb(155, 108, 108); 
+}
+
+
+// @media (max-width: 768px) {
+//     .nav__menu {
+    
+//     }
+
+//     .hide {
+//         display: block;
+//         text-align: center;
+//       }
+//   }
+  
+
