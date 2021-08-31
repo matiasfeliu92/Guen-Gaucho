@@ -15,22 +15,31 @@
   background-image: url("https://scontent.faep8-1.fna.fbcdn.net/v/t1.6435-9/119099734_217690666359007_2937386843064675376_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=jLbSm8AQ8_kAX99bxgl&_nc_ht=scontent.faep8-1.fna&oh=e4a7e7178eda00a016410b50b35d8f9e&oe=6149938A");
   background-size:cover;
   background-position:center;
-  height: 50vh;
+  width: 100%;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   opacity: 1;
 
-  // &__logo {
-  //     width: 30vw;
-  //     height: auto;
-  // }
+  .hero__img {
+    background-color: white;
+    opacity: 0.5;
+    border-radius: 400px;
+
+
+    .hero__logo {
+      width: 30vw;
+      height: auto;
+    }
+  }
 }
 
 .hero__mates {
   background-image: url("https://scontent.faep8-1.fna.fbcdn.net/v/t1.6435-9/81901794_140719940722747_9099047684416733184_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=gOCAIu3zo1YAX_neCG0&_nc_ht=scontent.faep8-1.fna&oh=60c54379855b6892739d1e0b168ad164&oe=61478BAD");
   background-size:cover;
   background-position:center;
+  width: 100%;
   height: 60vh;
   display: flex;
   justify-content: center;
@@ -63,14 +72,173 @@
   background-image: url("https://scontent.faep8-1.fna.fbcdn.net/v/t1.6435-9/75561565_112391666888908_7105350764993708032_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=MV35Xp4IODMAX9oNqfY&_nc_ht=scontent.faep8-1.fna&oh=2af54b0743ecdddb4dae3ec44f34a7f1&oe=614808D7");
   background-size:cover;
   background-position:center;
-  height: 50vh;
+  width: 100%;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   opacity: 1;
 
-  &__logo {
+  .hero__img {
+    background-color: white;
+    opacity: 0.5;
+    border-radius: 400px;
+
+
+    .hero__logo {
       width: 30vw;
       height: auto;
+    }
+  }
+}
+
+.hero__camionero {
+  background-image: url("https://scontent.faep8-1.fna.fbcdn.net/v/t1.6435-9/74427191_112380893556652_5100045064365670400_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=iybEi_hWxIkAX96yleQ&_nc_ht=scontent.faep8-1.fna&oh=b603972740fea58e5ef00aff926b4e30&oe=6154BFF6");
+  background-size:cover;
+  background-position:center;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+
+  .hero__img {
+    background-color: white;
+    opacity: 0.5;
+    border-radius: 400px;
+
+
+    .hero__logo {
+      width: 30vw;
+      height: auto;
+    }
+  }
+}
+
+.hero__torpedo {
+  background-image: url("https://scontent.faep8-2.fna.fbcdn.net/v/t1.6435-9/79637904_128417355286339_6233777196259868672_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=KxTmff7i2sUAX_06llt&_nc_ht=scontent.faep8-2.fna&oh=e36bc341b49b13cbd4592350080623e2&oe=6155A81F");
+  background-size:cover;
+  background-position:center;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+
+  .hero__img {
+    background-color: white;
+    opacity: 0.5;
+    border-radius: 400px;
+
+
+    .hero__logo {
+      width: 30vw;
+      height: auto;
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .hero {
+    width: 100%;
+    height: 60vh;
+
+    .hero__img {
+      background-color: white;
+      opacity: 0.6;
+      border-radius: 400px;
+  
+      .hero__logo {
+        width: 60vw;
+        height: auto;
+      }
+    }
+  }
+
+  .hero__mates {
+    background-image: url("https://scontent.faep8-1.fna.fbcdn.net/v/t1.6435-9/81901794_140719940722747_9099047684416733184_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=gOCAIu3zo1YAX_neCG0&_nc_ht=scontent.faep8-1.fna&oh=60c54379855b6892739d1e0b168ad164&oe=61478BAD");
+    background-size:cover;
+    background-position:center;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1; 
+  
+    .hero__text {
+        background-color: white;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 10px;
+        border-radius: $bordes-redondeados/2;
+        color: black;
+        opacity: 0.7;
+        font-family:'Indie Flower', cursive;
+        font-weight: bold;
+  
+        .hero__link {
+            text-decoration: none;
+            color: black;
+        }
+  
+        .hero__link:hover {
+            color:white;
+            background-color: rgb(126, 77, 77);
+            border-radius: 20px;
+            border: 1px solid black;
+            padding: 5px;
+        }
+    }
+  }
+
+  .hero__productos {
+    width: 100%;
+    height: 60vh;
+
+    .hero__img {
+      background-color: white;
+      opacity: 0.6;
+      border-radius: 400px;
+  
+      .hero__logo {
+        width: 60vw;
+        height: auto;
+      }
+    }
+  }
+
+  .hero__camionero {
+    width: 100%;
+    height: 60vh;
+
+    .hero__img {
+      background-color: white;
+      opacity: 0.6;
+      border-radius: 400px;
+  
+      .hero__logo {
+        width: 60vw;
+        height: auto;
+      }
+    }
+  }
+
+  .hero__torpedo {
+    width: 100%;
+    height: 60vh;
+
+    .hero__img {
+      background-color: white;
+      opacity: 0.6;
+      border-radius: 400px;
+  
+      .hero__logo {
+        width: 60vw;
+        height: auto;
+      }
+    }
   }
 }

@@ -1,219 +1,185 @@
 @import "./variables";
 
-%hover {
-  background-color: $fondo-blanco-hover;
-  transition: $efecto-transicion;
-  border: $borde-hover*2 solid black;
-  border-radius: $bordes-redondeados/2;
-  transform: scale(1.10,1.10);
-  box-shadow: 5px 10px rgb(80, 74, 74);
+.secMates {
+  display: flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 25vh;;
+
+  .secMates__serv {
+      font-family:'Indie Flower', cursive;
+      font-weight: bold;
+  }
 }
 
-%hover-contacto {
-  background-color: $fondo-blanco-hover;
-  transition: $efecto-transicion;
-  border: $borde-hover*2 solid black;
-  border-radius: $bordes-redondeados/2;
-  box-shadow: 5px 10px rgb(80, 74, 74);
+.productos {
+  width: 100%;
+
+  .productos__mates {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+
+      .productos__camionero {
+          width: 40%;
+          height:50vh;
+          background-image: url("https://scontent.faep8-2.fna.fbcdn.net/v/t1.6435-9/78151590_112394080222000_5813400945677041664_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=rm9GIyXr4nMAX_iY7Jo&_nc_ht=scontent.faep8-2.fna&oh=f44d9c8735dc7da0b35b18024bebae8c&oe=614776DB");
+          background-size:cover;
+          background-position:center;
+          display:flex;
+          justify-content:center;
+          align-items: center;
+          border-radius: $bordes-redondeados/2;
+
+          .productos__link {
+            text-decoration: none;
+          }
+
+          .productos__link:hover {
+            opacity: 0.7;
+            background-color: white;
+            border-radius: $bordes-redondeados/2;
+          }
+      }
+
+      .productos__torpedo {
+          width: 40%;
+          height:50vh;
+          background-image: url("https://scontent.faep8-1.fna.fbcdn.net/v/t1.6435-9/77390658_118301619631246_4630732467513327616_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=cfBsiqFV_uEAX8DJzZd&_nc_ht=scontent.faep8-1.fna&oh=58058d328eb70184ef5472a5490209d7&oe=61481244");
+          background-size:cover;
+          background-position:center;
+          display:flex;
+          justify-content:center;
+          align-items: center;
+          border-radius: $bordes-redondeados/2;
+
+          .productos__link {
+            text-decoration: none;
+          }
+
+          .productos__link:hover {
+            opacity: 0.7;
+            background-color: white;
+            border-radius: $bordes-redondeados/2;
+          }
+      }
+  }
 }
 
-/*PAGINA HOME*/
-.home {
-    background-color: rgb(187, 184, 184);
-    border-radius: $bordes-redondeados/2;
-    display: flex;
-    justify-content: space-evenly;
-  
-    &__seccion {
-      display:flex;
-      flex-direction: column;
+.camio {
+
+  .camio__galeria {
+      display: flex;
+      flex-direction: row;
       justify-content: space-evenly;
       align-items: center;
-    }
-  
-    &__subseccion {
-      padding: 10px;
-    }
-  }
 
-  .home2 {
-    background-color: rgb(221, 221, 221);
-    border-radius: $bordes-redondeados/2;
-    padding: 10px;
-    display:flex;
-    flex-direction: column;
+      .camio__imagen{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          .camio__img {
+              width:90%;
+              height: auto;
+              border-radius: $bordes-redondeados/2;
+          }
+      }
+
+  }
+}
+
+@media (max-width: 320px) {
+  .secMates {
+    display: flex;
+    flex-direction:column;
     justify-content: space-evenly;
     align-items: center;
+    width: 100%;
+    height: 50vh;
+  }
+
+  .productos {
+    width: 100%;
   
-    &_subseccion {
-      display:flex;
-      flex-direction: column;
-    }
+    .productos__mates {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
   
-    &__img {
-      border: 1px solid black;
-    }
-  }
-
-  /*PAGINA PROYECTOS*/
-  .Proyectos__galeria {
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-
-  /*PAGINA SOBRE MI*/
-  .sobreMi__seccion2 {
-    align-self: center;
-  }
-
-  /*PAGINA CONTACTO*/
+        .productos__camionero {
+            width: 80%;
+            height:50vh;
+            // background-image: url("https://scontent.faep8-2.fna.fbcdn.net/v/t1.6435-9/78151590_112394080222000_5813400945677041664_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=rm9GIyXr4nMAX_iY7Jo&_nc_ht=scontent.faep8-2.fna&oh=f44d9c8735dc7da0b35b18024bebae8c&oe=614776DB");
+            // background-size:cover;
+            // background-position:center;
+            display:flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items: center;
+            border-radius: $bordes-redondeados/2;
   
-  .contacto__nombre {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    display:flex;
-    flex-direction: column;
-  }
+            .productos__link {
+              text-decoration: none;
+              opacity: 0.7;
+              background-color: white;
+              border-radius: $bordes-redondeados/2;
+            }
   
-  .contacto__boton--estilo {
-    margin-right: 20px;
-    font-weight: 800;
-  }
-
-  .contacto__parrafo--estilo {
-    margin-top: 20px;
-  }
-
-  .contacto__botonPreg {
-    background-color:gray;
-    color: black;
-    font-weight: bold;
-    border: none;
-    width: 65vw;
-  }
-
-  .contacto_respuesta {
-    background-color: lightgray;
-    border: 1px solid black;
-    border-radius: $bordes-redondeados/2;
-    margin-bottom: 15px;
-  }
-
-  /*PAGINA SOFTWARE*/
-  .software__seccion {
-    background-color: rgb(187, 184, 184);
-    border-radius: $bordes-redondeados/2;
-    padding: 10px;
-    display:flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    height: $height-width/3;
+            // .productos__link:hover {
+            //   opacity: 0.7;
+            //   background-color: white;
+            //   border-radius: $bordes-redondeados/2;
+            // }
+        }
   
-    .software__subseccion {
-      margin-top: 10px;
-      margin-bottom: 10px;
-      padding: 15px;
-    }
-
-    .software__BotonReq {
-      text-decoration: none;
-      color: black;
-      font-weight: bold;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      margin-top: 20px;
-      margin-bottom: 20px;
+        .productos__torpedo {
+            width: 80%;
+            height:50vh;
+            // background-image: url("https://scontent.faep8-1.fna.fbcdn.net/v/t1.6435-9/77390658_118301619631246_4630732467513327616_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=cfBsiqFV_uEAX8DJzZd&_nc_ht=scontent.faep8-1.fna&oh=58058d328eb70184ef5472a5490209d7&oe=61481244");
+            // background-size:cover;
+            // background-position:center;
+            margin-top: 20px;
+            display:flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items: center;
+            border-radius: $bordes-redondeados/2;
+  
+            .productos__link {
+              text-decoration: none;
+              opacity: 0.7;
+              background-color: white;
+              border-radius: $bordes-redondeados/2;
+            }
+        }
     }
   }
 
-  .software2 {
-    background-color: rgb(221, 221, 221);
-    border-radius: $bordes-redondeados/2;
-    display:flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-  }
+  .camio {
+
+    .camio__galeria {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
   
-  .software2__seccion {
-    margin-top:50px;
-    margin-bottom: 50px;
-  }
-
-  /*PAGINA MODELADO*/
-  .contenidoModelado {
-  background-color: rgb(187, 184, 184);
-  border-radius: $bordes-redondeados/2; 
-  }
-
-  .modeladoTitle {
-  margin-bottom: 20px;
-  margin-top: 5px;
-  }
-
-  .modeladoBoton {
-    background-color:rgb(173, 170, 170);
-    border:none;
-    font-size: 20px;
-    border-radius: $bordes-redondeados/2;
-    font-weight: bold;
-    color: black;
-  }
-
-  .fondoModal {
-    background-image: linear-gradient(to right, #808080, #dcdcdc);
-    border: $borde-hover*2 solid black;
-    padding: 10px;
-    border-radius: $bordes-redondeados/2;
-  }
-
-  .listaModelado {
-    font-style: italic;
-  }
-
-  .carruselModelado {
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-
-  .contenidoModel2 {
-    background-color: rgb(221, 221, 221);
-    border-radius: $bordes-redondeados/2;
-    padding: 10px;
-  }
+        .camio__imagen{
+            display: flex;
+            margin-top: 20px;
+            justify-content: center;
+            align-items: center;
   
-  .contenidoModelado2 {
-    margin-top: 15px;
-    margin-bottom: 15px;
-  }
-
-  /*PAGINA RENDER*/
-  .render {
-    background-color: rgb(187, 184, 184);
-    border-radius: $bordes-redondeados/2;
-    display:flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+            .camio__img {
+                width:90%;
+                height: auto;
+                border-radius: $bordes-redondeados/2;
+            }
+        }
   
-    &__img {
-      margin-top: 15px;
-      margin-bottom: 15px;
-      width: $height-width/3;
     }
   }
-  
-  .render2 {
-    background-color: rgb(221, 221, 221);
-    border-radius: $bordes-redondeados/2;
-    padding: 10px;
-    display:flex;
-    flex-direction: column;
-    height: $height-width/3;
-  
-    &_subseccion {
-      margin-top: 25px;
-      margin-bottom: 25px;
-    }
-  }
+}

@@ -1,8 +1,8 @@
 h1, h2, h3, h4, .alerta { color: black; font-weight: bolder; }
 
-h1 { font-size: 25px; font-family: "Indie Flower", cursive; margin-top: 15px; margin-bottom: 10px; }
+h1 { font-size: 30px; font-family: "Indie Flower", cursive; margin-top: 15px; margin-bottom: 10px; }
 
-h2 { font-size: 20px; font-family: "Indie Flower", cursive; }
+h2 { font-size: 22px; font-family: "Indie Flower", cursive; }
 
 h3 { font-size: 15px; font-family: "Indie Flower", cursive; }
 
@@ -14,15 +14,19 @@ small { font-size: 10px; font-family: "Indie Flower", cursive; color: black; fon
 
 h5 { font-size: 10px; font-family: "Indie Flower", cursive; color: black; font-weight: bold; }
 
-.nav__bar { background-color: #9b6c6c; }
+.nav__bar { background-color: #9b6c6c; padding: 10px; }
 
 .nav__bar .nav__link { color: black; text-decoration: none; font-weight: bold; font-family: 'Indie Flower', cursive; margin-left: 20px; margin-right: 20px; }
 
 .nav__bar .nav__link:hover { color: white; font-family: 'Indie Flower', cursive; }
 
-.hero { background-image: url("https://scontent.faep8-1.fna.fbcdn.net/v/t1.6435-9/119099734_217690666359007_2937386843064675376_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=jLbSm8AQ8_kAX99bxgl&_nc_ht=scontent.faep8-1.fna&oh=e4a7e7178eda00a016410b50b35d8f9e&oe=6149938A"); background-size: cover; background-position: center; height: 50vh; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; opacity: 1; }
+.hero { background-image: url("https://scontent.faep8-1.fna.fbcdn.net/v/t1.6435-9/119099734_217690666359007_2937386843064675376_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=jLbSm8AQ8_kAX99bxgl&_nc_ht=scontent.faep8-1.fna&oh=e4a7e7178eda00a016410b50b35d8f9e&oe=6149938A"); background-size: cover; background-position: center; width: 100%; height: auto; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; opacity: 1; }
 
-.hero__mates { background-image: url("https://scontent.faep8-1.fna.fbcdn.net/v/t1.6435-9/81901794_140719940722747_9099047684416733184_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=gOCAIu3zo1YAX_neCG0&_nc_ht=scontent.faep8-1.fna&oh=60c54379855b6892739d1e0b168ad164&oe=61478BAD"); background-size: cover; background-position: center; height: 60vh; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; opacity: 1; }
+.hero .hero__img { background-color: white; opacity: 0.5; border-radius: 400px; }
+
+.hero .hero__img .hero__logo { width: 30vw; height: auto; }
+
+.hero__mates { background-image: url("https://scontent.faep8-1.fna.fbcdn.net/v/t1.6435-9/81901794_140719940722747_9099047684416733184_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=gOCAIu3zo1YAX_neCG0&_nc_ht=scontent.faep8-1.fna&oh=60c54379855b6892739d1e0b168ad164&oe=61478BAD"); background-size: cover; background-position: center; width: 100%; height: 60vh; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; opacity: 1; }
 
 .hero__mates .hero__text { background-color: white; color: black; opacity: 0.7; font-family: 'Indie Flower', cursive; font-weight: bold; }
 
@@ -30,76 +34,77 @@ h5 { font-size: 10px; font-family: "Indie Flower", cursive; color: black; font-w
 
 .hero__mates .hero__text .hero__link:hover { color: white; background-color: #7e4d4d; border-radius: 20px; border: 1px solid black; padding: 5px; }
 
-.hero__productos { background-image: url("https://scontent.faep8-1.fna.fbcdn.net/v/t1.6435-9/75561565_112391666888908_7105350764993708032_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=MV35Xp4IODMAX9oNqfY&_nc_ht=scontent.faep8-1.fna&oh=2af54b0743ecdddb4dae3ec44f34a7f1&oe=614808D7"); background-size: cover; background-position: center; height: 50vh; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; opacity: 1; }
+.hero__productos { background-image: url("https://scontent.faep8-1.fna.fbcdn.net/v/t1.6435-9/75561565_112391666888908_7105350764993708032_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=MV35Xp4IODMAX9oNqfY&_nc_ht=scontent.faep8-1.fna&oh=2af54b0743ecdddb4dae3ec44f34a7f1&oe=614808D7"); background-size: cover; background-position: center; width: 100%; height: auto; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; opacity: 1; }
 
-.hero__productos__logo { width: 30vw; height: auto; }
+.hero__productos .hero__img { background-color: white; opacity: 0.5; border-radius: 400px; }
 
-/*PAGINA HOME*/
-.home { background-color: #bbb8b8; border-radius: 25px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; }
+.hero__productos .hero__img .hero__logo { width: 30vw; height: auto; }
 
-.home__seccion { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+.hero__camionero { background-image: url("https://scontent.faep8-1.fna.fbcdn.net/v/t1.6435-9/74427191_112380893556652_5100045064365670400_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=iybEi_hWxIkAX96yleQ&_nc_ht=scontent.faep8-1.fna&oh=b603972740fea58e5ef00aff926b4e30&oe=6154BFF6"); background-size: cover; background-position: center; width: 100%; height: auto; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; opacity: 1; }
 
-.home__subseccion { padding: 10px; }
+.hero__camionero .hero__img { background-color: white; opacity: 0.5; border-radius: 400px; }
 
-.home2 { background-color: #dddddd; border-radius: 25px; padding: 10px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+.hero__camionero .hero__img .hero__logo { width: 30vw; height: auto; }
 
-.home2_subseccion { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+.hero__torpedo { background-image: url("https://scontent.faep8-2.fna.fbcdn.net/v/t1.6435-9/79637904_128417355286339_6233777196259868672_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=KxTmff7i2sUAX_06llt&_nc_ht=scontent.faep8-2.fna&oh=e36bc341b49b13cbd4592350080623e2&oe=6155A81F"); background-size: cover; background-position: center; width: 100%; height: auto; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; opacity: 1; }
 
-.home2__img { border: 1px solid black; }
+.hero__torpedo .hero__img { background-color: white; opacity: 0.5; border-radius: 400px; }
 
-/*PAGINA PROYECTOS*/
-.Proyectos__galeria { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin-top: 10px; margin-bottom: 10px; }
+.hero__torpedo .hero__img .hero__logo { width: 30vw; height: auto; }
 
-/*PAGINA SOBRE MI*/
-.sobreMi__seccion2 { -ms-flex-item-align: center; -ms-grid-row-align: center; align-self: center; }
+@media (max-width: 320px) { .hero { width: 100%; height: 60vh; }
+  .hero .hero__img { background-color: white; opacity: 0.6; border-radius: 400px; }
+  .hero .hero__img .hero__logo { width: 60vw; height: auto; }
+  .hero__mates { background-image: url("https://scontent.faep8-1.fna.fbcdn.net/v/t1.6435-9/81901794_140719940722747_9099047684416733184_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=gOCAIu3zo1YAX_neCG0&_nc_ht=scontent.faep8-1.fna&oh=60c54379855b6892739d1e0b168ad164&oe=61478BAD"); background-size: cover; background-position: center; width: 100%; height: 60vh; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; opacity: 1; }
+  .hero__mates .hero__text { background-color: white; margin-left: 20px; margin-right: 20px; padding: 10px; border-radius: 25px; color: black; opacity: 0.7; font-family: 'Indie Flower', cursive; font-weight: bold; }
+  .hero__mates .hero__text .hero__link { text-decoration: none; color: black; }
+  .hero__mates .hero__text .hero__link:hover { color: white; background-color: #7e4d4d; border-radius: 20px; border: 1px solid black; padding: 5px; }
+  .hero__productos { width: 100%; height: 60vh; }
+  .hero__productos .hero__img { background-color: white; opacity: 0.6; border-radius: 400px; }
+  .hero__productos .hero__img .hero__logo { width: 60vw; height: auto; }
+  .hero__camionero { width: 100%; height: 60vh; }
+  .hero__camionero .hero__img { background-color: white; opacity: 0.6; border-radius: 400px; }
+  .hero__camionero .hero__img .hero__logo { width: 60vw; height: auto; }
+  .hero__torpedo { width: 100%; height: 60vh; }
+  .hero__torpedo .hero__img { background-color: white; opacity: 0.6; border-radius: 400px; }
+  .hero__torpedo .hero__img .hero__logo { width: 60vw; height: auto; } }
 
-/*PAGINA CONTACTO*/
-.contacto__nombre { margin-top: 10px; margin-bottom: 10px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+.secMates { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; -webkit-box-align: center; -ms-flex-align: center; align-items: center; width: 100%; height: 25vh; }
 
-.contacto__boton--estilo { margin-right: 20px; font-weight: 800; }
+.secMates .secMates__serv { font-family: 'Indie Flower', cursive; font-weight: bold; }
 
-.contacto__parrafo--estilo { margin-top: 20px; }
+.productos { width: 100%; }
 
-.contacto__botonPreg { background-color: gray; color: black; font-weight: bold; border: none; width: 65vw; }
+.productos .productos__mates { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; }
 
-.contacto_respuesta { background-color: lightgray; border: 1px solid black; border-radius: 25px; margin-bottom: 15px; }
+.productos .productos__mates .productos__camionero { width: 40%; height: 50vh; background-image: url("https://scontent.faep8-2.fna.fbcdn.net/v/t1.6435-9/78151590_112394080222000_5813400945677041664_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=rm9GIyXr4nMAX_iY7Jo&_nc_ht=scontent.faep8-2.fna&oh=f44d9c8735dc7da0b35b18024bebae8c&oe=614776DB"); background-size: cover; background-position: center; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; border-radius: 25px; }
 
-/*PAGINA SOFTWARE*/
-.software__seccion { background-color: #bbb8b8; border-radius: 25px; padding: 10px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; height: 100%; }
+.productos .productos__mates .productos__camionero .productos__link { text-decoration: none; }
 
-.software__seccion .software__subseccion { margin-top: 10px; margin-bottom: 10px; padding: 15px; }
+.productos .productos__mates .productos__camionero .productos__link:hover { opacity: 0.7; background-color: white; border-radius: 25px; }
 
-.software__seccion .software__BotonReq { text-decoration: none; color: black; font-weight: bold; padding-top: 10px; padding-bottom: 10px; margin-top: 20px; margin-bottom: 20px; }
+.productos .productos__mates .productos__torpedo { width: 40%; height: 50vh; background-image: url("https://scontent.faep8-1.fna.fbcdn.net/v/t1.6435-9/77390658_118301619631246_4630732467513327616_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=cfBsiqFV_uEAX8DJzZd&_nc_ht=scontent.faep8-1.fna&oh=58058d328eb70184ef5472a5490209d7&oe=61481244"); background-size: cover; background-position: center; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; border-radius: 25px; }
 
-.software2 { background-color: #dddddd; border-radius: 25px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; }
+.productos .productos__mates .productos__torpedo .productos__link { text-decoration: none; }
 
-.software2__seccion { margin-top: 50px; margin-bottom: 50px; }
+.productos .productos__mates .productos__torpedo .productos__link:hover { opacity: 0.7; background-color: white; border-radius: 25px; }
 
-/*PAGINA MODELADO*/
-.contenidoModelado { background-color: #bbb8b8; border-radius: 25px; }
+.camio .camio__galeria { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
-.modeladoTitle { margin-bottom: 20px; margin-top: 5px; }
+.camio .camio__galeria .camio__imagen { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
-.modeladoBoton { background-color: #adaaaa; border: none; font-size: 20px; border-radius: 25px; font-weight: bold; color: black; }
+.camio .camio__galeria .camio__imagen .camio__img { width: 90%; height: auto; border-radius: 25px; }
 
-.fondoModal { background-image: -webkit-gradient(linear, left top, right top, from(#808080), to(#dcdcdc)); background-image: linear-gradient(to right, #808080, #dcdcdc); border: 2px solid black; padding: 10px; border-radius: 25px; }
-
-.listaModelado { font-style: italic; }
-
-.carruselModelado { margin-top: 20px; margin-bottom: 20px; }
-
-.contenidoModel2 { background-color: #dddddd; border-radius: 25px; padding: 10px; }
-
-.contenidoModelado2 { margin-top: 15px; margin-bottom: 15px; }
-
-/*PAGINA RENDER*/
-.render { background-color: #bbb8b8; border-radius: 25px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; }
-
-.render__img { margin-top: 15px; margin-bottom: 15px; width: 100%; }
-
-.render2 { background-color: #dddddd; border-radius: 25px; padding: 10px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; height: 100%; }
-
-.render2_subseccion { margin-top: 25px; margin-bottom: 25px; }
+@media (max-width: 320px) { .secMates { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; -webkit-box-align: center; -ms-flex-align: center; align-items: center; width: 100%; height: 50vh; }
+  .productos { width: 100%; }
+  .productos .productos__mates { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+  .productos .productos__mates .productos__camionero { width: 80%; height: 50vh; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; border-radius: 25px; }
+  .productos .productos__mates .productos__camionero .productos__link { text-decoration: none; opacity: 0.7; background-color: white; border-radius: 25px; }
+  .productos .productos__mates .productos__torpedo { width: 80%; height: 50vh; margin-top: 20px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; border-radius: 25px; }
+  .productos .productos__mates .productos__torpedo .productos__link { text-decoration: none; opacity: 0.7; background-color: white; border-radius: 25px; }
+  .camio .camio__galeria { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+  .camio .camio__galeria .camio__imagen { display: -webkit-box; display: -ms-flexbox; display: flex; margin-top: 20px; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+  .camio .camio__galeria .camio__imagen .camio__img { width: 90%; height: auto; border-radius: 25px; } }
 
 .footer { background-image: -webkit-gradient(linear, left top, right top, from(#696969), to(#c0c0c0)); background-image: linear-gradient(to right, #696969, #c0c0c0); -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
@@ -122,31 +127,5 @@ h5 { font-size: 10px; font-family: "Indie Flower", cursive; color: black; font-w
 .error404 { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -ms-flex-item-align: center; align-self: center; }
 
 .alerta { font-size: 90px; }
-
-@media (min-width: 1024px) { .home__subseccion:hover { background-color: white; -webkit-transition: all 600ms ease; transition: all 600ms ease; border: 2px solid black; border-radius: 25px; -webkit-transform: scale(1.1, 1.1); transform: scale(1.1, 1.1); -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
-  .home2__img:hover { -webkit-transform: scale(1.6, 1.6); transform: scale(1.6, 1.6); -webkit-transition: all 600ms ease; transition: all 600ms ease; }
-  .Proyectos__img:hover { -webkit-transform: scale(1.6, 1.6); transform: scale(1.6, 1.6); -webkit-transition: all 600ms ease; transition: all 600ms ease; }
-  .contacto__campo--estilo:hover { background-color: white; -webkit-transition: all 600ms ease; transition: all 600ms ease; border: 2px solid black; border-radius: 25px; -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
-  .contacto__boton--estilo:hover { background-color: white; -webkit-transition: all 600ms ease; transition: all 600ms ease; border: 2px solid black; border-radius: 25px; -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
-  .contacto__botonPreg:hover { background-color: white; -webkit-transition: all 600ms ease; transition: all 600ms ease; border: 2px solid black; border-radius: 25px; -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
-  .software__BotonReq:hover { background-color: white; -webkit-transition: all 600ms ease; transition: all 600ms ease; border: 2px solid black; border-radius: 25px; -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
-  .software__subseccion:hover { background-color: white; -webkit-transition: all 600ms ease; transition: all 600ms ease; border: 2px solid black; border-radius: 25px; -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
-  .software2__seccion:hover { background-color: white; -webkit-transition: all 600ms ease; transition: all 600ms ease; border: 2px solid black; border-radius: 25px; -webkit-transform: scale(1.1, 1.1); transform: scale(1.1, 1.1); -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
-  .modeladoBoton:hover { background-color: white; -webkit-transition: all 600ms ease; transition: all 600ms ease; border: 2px solid black; border-radius: 25px; -webkit-transform: scale(1.1, 1.1); transform: scale(1.1, 1.1); -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
-  .contenidoModelado2:hover { background-color: white; -webkit-transition: all 600ms ease; transition: all 600ms ease; border: 2px solid black; border-radius: 25px; -webkit-transform: scale(1.1, 1.1); transform: scale(1.1, 1.1); -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; }
-  .render__img:hover { -webkit-transform: scale(1.6, 1.6); transform: scale(1.6, 1.6); -webkit-transition: all 600ms ease; transition: all 600ms ease; }
-  .render2_subseccion:hover { background-color: white; -webkit-transition: all 600ms ease; transition: all 600ms ease; border: 2px solid black; border-radius: 25px; -webkit-transform: scale(1.1, 1.1); transform: scale(1.1, 1.1); -webkit-box-shadow: 5px 10px #504a4a; box-shadow: 5px 10px #504a4a; } }
-
-.seccionMates__serv { font-family: 'Indie Flower', cursive; font-weight: bold; text-transform: uppercase; }
-
-.productos__camionero { background-image: url("https://scontent.faep8-2.fna.fbcdn.net/v/t1.6435-9/78151590_112394080222000_5813400945677041664_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=rm9GIyXr4nMAX_iY7Jo&_nc_ht=scontent.faep8-2.fna&oh=f44d9c8735dc7da0b35b18024bebae8c&oe=614776DB"); background-size: cover; background-position: center; background-color: white; height: 60vh; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; opacity: 1; }
-
-.productos__camionero .container-fluid:hover { opacity: 0.7; background-color: white; font-weight: bold; }
-
-.productos__torpedo { background-image: url("https://scontent.faep8-1.fna.fbcdn.net/v/t1.6435-9/77390658_118301619631246_4630732467513327616_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=cfBsiqFV_uEAX8DJzZd&_nc_ht=scontent.faep8-1.fna&oh=58058d328eb70184ef5472a5490209d7&oe=61481244"); background-size: cover; background-position: center; height: 60vh; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; opacity: 1; }
-
-.productos__torpedo .container-fluid:hover { opacity: 0.7; background-color: white; font-weight: bold; }
-
-.productos__link { text-decoration: none; color: black; }
 
 footer { background-color: #9b6c6c; }

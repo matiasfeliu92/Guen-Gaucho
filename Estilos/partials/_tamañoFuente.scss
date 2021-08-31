@@ -5,7 +5,7 @@
 }
 
 h1 {
-    font-size: 25px;
+    font-size: 30px;
     font-family: $fuente-paginas;
     margin-top: 15px;
     margin-bottom: 10px;
@@ -13,7 +13,7 @@ h1 {
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 22px;
     font-family: $fuente-paginas;
     @extend %encabezados;
 }
