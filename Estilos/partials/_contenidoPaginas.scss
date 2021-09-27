@@ -112,11 +112,7 @@
             // background-image: url("https://scontent.faep8-2.fna.fbcdn.net/v/t1.6435-9/78151590_112394080222000_5813400945677041664_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=rm9GIyXr4nMAX_iY7Jo&_nc_ht=scontent.faep8-2.fna&oh=f44d9c8735dc7da0b35b18024bebae8c&oe=614776DB");
             // background-size:cover;
             // background-position:center;
-            display:flex;
-            flex-direction: column;
-            justify-content:center;
-            align-items: flex-end;
-            border-radius: $bordes-redondeados/2;
+            padding: 10px;
   
             .productos__link {
               text-decoration: none;
@@ -130,6 +126,7 @@
             // background-size:cover;
             // background-position:center;
             margin-top: 20px;
+            padding: 10px;
   
             .productos__link {
               text-decoration: none;
