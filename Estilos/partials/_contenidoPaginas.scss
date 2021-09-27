@@ -30,17 +30,15 @@
           background-position:center;
           display:flex;
           justify-content:center;
-          align-items: center;
+          align-items: flex-end;
           border-radius: $bordes-redondeados/2;
 
           .productos__link {
             text-decoration: none;
-          }
 
-          .productos__link:hover {
-            opacity: 0.7;
-            background-color: white;
-            border-radius: $bordes-redondeados/2;
+            h2,p {
+              color: white;
+            }
           }
       }
 
@@ -52,17 +50,15 @@
           background-position:center;
           display:flex;
           justify-content:center;
-          align-items: center;
+          align-items: flex-end;
           border-radius: $bordes-redondeados/2;
 
           .productos__link {
             text-decoration: none;
-          }
 
-          .productos__link:hover {
-            opacity: 0.7;
-            background-color: white;
-            border-radius: $bordes-redondeados/2;
+            h2,p {
+              color: white;
+            }
           }
       }
   }
@@ -119,21 +115,12 @@
             display:flex;
             flex-direction: column;
             justify-content:center;
-            align-items: center;
+            align-items: flex-end;
             border-radius: $bordes-redondeados/2;
   
             .productos__link {
               text-decoration: none;
-              opacity: 0.7;
-              background-color: white;
-              border-radius: $bordes-redondeados/2;
             }
-  
-            // .productos__link:hover {
-            //   opacity: 0.7;
-            //   background-color: white;
-            //   border-radius: $bordes-redondeados/2;
-            // }
         }
   
         .productos__torpedo {
@@ -143,17 +130,9 @@
             // background-size:cover;
             // background-position:center;
             margin-top: 20px;
-            display:flex;
-            flex-direction: column;
-            justify-content:center;
-            align-items: center;
-            border-radius: $bordes-redondeados/2;
   
             .productos__link {
               text-decoration: none;
-              opacity: 0.7;
-              background-color: white;
-              border-radius: $bordes-redondeados/2;
             }
         }
     }
