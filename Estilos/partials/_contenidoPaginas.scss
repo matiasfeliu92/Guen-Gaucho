@@ -25,7 +25,7 @@
       .productos__camionero {
           width: 40%;
           height:50vh;
-          background-image: url("https://scontent.faep8-2.fna.fbcdn.net/v/t1.6435-9/78151590_112394080222000_5813400945677041664_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=rm9GIyXr4nMAX_iY7Jo&_nc_ht=scontent.faep8-2.fna&oh=f44d9c8735dc7da0b35b18024bebae8c&oe=614776DB");
+          background-image: url("/Imagenes/imagen\ portada\ home.png");
           background-size:cover;
           background-position:center;
           display:flex;
@@ -47,7 +47,7 @@
       .productos__torpedo {
           width: 40%;
           height:50vh;
-          background-image: url("https://scontent.faep8-1.fna.fbcdn.net/v/t1.6435-9/77390658_118301619631246_4630732467513327616_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=cfBsiqFV_uEAX8DJzZd&_nc_ht=scontent.faep8-1.fna&oh=58058d328eb70184ef5472a5490209d7&oe=61481244");
+          background-image: url("https://scontent.faep8-1.fna.fbcdn.net/v/t1.6435-9/75561565_112391666888908_7105350764993708032_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=JxrKxSEJLz0AX_8B6vm&_nc_ht=scontent.faep8-1.fna&oh=1cbdc1ec725d895e4cbbafa3a3456cdc&oe=61738A57");
           background-size:cover;
           background-position:center;
           display:flex;
@@ -91,7 +91,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .secMates {
     display: flex;
     flex-direction:column;

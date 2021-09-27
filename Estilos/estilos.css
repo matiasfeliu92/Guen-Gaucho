@@ -20,21 +20,23 @@ h5 { font-size: 10px; font-family: "Indie Flower", cursive; color: black; font-w
 
 .nav__bar .nav__link:hover { color: white; font-family: 'Indie Flower', cursive; }
 
-.hero { background-image: url("https://scontent.faep8-1.fna.fbcdn.net/v/t1.6435-9/119099734_217690666359007_2937386843064675376_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=jLbSm8AQ8_kAX99bxgl&_nc_ht=scontent.faep8-1.fna&oh=e4a7e7178eda00a016410b50b35d8f9e&oe=6149938A"); background-size: cover; background-position: center; width: 100%; height: auto; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; opacity: 1; }
+.hero { background-image: url("/Imagenes/imagen portada home.png"); background-size: cover; background-position: center; width: 100%; height: auto; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; opacity: 1; }
 
 .hero .hero__img { background-color: white; opacity: 0.5; border-radius: 400px; }
 
 .hero .hero__img .hero__logo { width: 30vw; height: auto; }
 
-.hero__mates { background-image: url("https://scontent.faep8-1.fna.fbcdn.net/v/t1.6435-9/81901794_140719940722747_9099047684416733184_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=gOCAIu3zo1YAX_neCG0&_nc_ht=scontent.faep8-1.fna&oh=60c54379855b6892739d1e0b168ad164&oe=61478BAD"); background-size: cover; background-position: center; width: 100%; height: 60vh; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; opacity: 1; }
+.hero__mates { background-image: url("/Imagenes/fondo mates home (1).png"); background-size: cover; background-position: center; width: 100%; height: 60vh; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; }
 
-.hero__mates .hero__text { background-color: white; color: black; opacity: 0.7; font-family: 'Indie Flower', cursive; font-weight: bold; }
+.hero__mates .hero__text { font-family: 'Indie Flower', cursive; font-weight: bold; }
 
-.hero__mates .hero__text .hero__link { text-decoration: none; color: black; }
+.hero__mates .hero__text h2, .hero__mates .hero__text p { color: white; }
+
+.hero__mates .hero__text .hero__link { text-decoration: none; color: white; }
 
 .hero__mates .hero__text .hero__link:hover { color: white; background-color: #7e4d4d; border-radius: 20px; border: 1px solid black; padding: 5px; }
 
-.hero__productos { background-image: url("https://scontent.faep8-1.fna.fbcdn.net/v/t1.6435-9/75561565_112391666888908_7105350764993708032_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=MV35Xp4IODMAX9oNqfY&_nc_ht=scontent.faep8-1.fna&oh=2af54b0743ecdddb4dae3ec44f34a7f1&oe=614808D7"); background-size: cover; background-position: center; width: 100%; height: auto; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; opacity: 1; }
+.hero__productos { background-image: url("/Imagenes/fondo mates (1).png"); background-size: cover; background-position: center; width: 100%; height: auto; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; opacity: 1; }
 
 .hero__productos .hero__img { background-color: white; opacity: 0.5; border-radius: 400px; }
 
@@ -52,12 +54,12 @@ h5 { font-size: 10px; font-family: "Indie Flower", cursive; color: black; font-w
 
 .hero__torpedo .hero__img .hero__logo { width: 30vw; height: auto; }
 
-@media (max-width: 320px) { .hero { width: 100%; height: 60vh; }
+@media (max-width: 425px) { .hero { width: 100%; height: 60vh; }
   .hero .hero__img { background-color: white; opacity: 0.6; border-radius: 400px; }
   .hero .hero__img .hero__logo { width: 60vw; height: auto; }
-  .hero__mates { background-image: url("https://scontent.faep8-1.fna.fbcdn.net/v/t1.6435-9/81901794_140719940722747_9099047684416733184_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=gOCAIu3zo1YAX_neCG0&_nc_ht=scontent.faep8-1.fna&oh=60c54379855b6892739d1e0b168ad164&oe=61478BAD"); background-size: cover; background-position: center; width: 100%; height: 60vh; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; opacity: 1; }
-  .hero__mates .hero__text { background-color: white; margin-left: 20px; margin-right: 20px; padding: 10px; border-radius: 25px; color: black; opacity: 0.7; font-family: 'Indie Flower', cursive; font-weight: bold; }
-  .hero__mates .hero__text .hero__link { text-decoration: none; color: black; }
+  .hero__mates { background-image: url("/Imagenes/imagen portada home.png"); background-size: cover; background-position: center; width: 100%; height: 60vh; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; }
+  .hero__mates .hero__text { margin-left: 20px; margin-right: 20px; padding: 10px; border-radius: 25px; color: white; font-family: 'Indie Flower', cursive; font-weight: bold; }
+  .hero__mates .hero__text .hero__link { text-decoration: none; color: white; }
   .hero__mates .hero__text .hero__link:hover { color: white; background-color: #7e4d4d; border-radius: 20px; border: 1px solid black; padding: 5px; }
   .hero__productos { width: 100%; height: 60vh; }
   .hero__productos .hero__img { background-color: white; opacity: 0.6; border-radius: 400px; }
@@ -77,13 +79,13 @@ h5 { font-size: 10px; font-family: "Indie Flower", cursive; color: black; font-w
 
 .productos .productos__mates { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; }
 
-.productos .productos__mates .productos__camionero { width: 40%; height: 50vh; background-image: url("https://scontent.faep8-2.fna.fbcdn.net/v/t1.6435-9/78151590_112394080222000_5813400945677041664_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=rm9GIyXr4nMAX_iY7Jo&_nc_ht=scontent.faep8-2.fna&oh=f44d9c8735dc7da0b35b18024bebae8c&oe=614776DB"); background-size: cover; background-position: center; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; border-radius: 25px; }
+.productos .productos__mates .productos__camionero { width: 40%; height: 50vh; background-image: url("/Imagenes/imagen portada home.png"); background-size: cover; background-position: center; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; border-radius: 25px; }
 
 .productos .productos__mates .productos__camionero .productos__link { text-decoration: none; }
 
 .productos .productos__mates .productos__camionero .productos__link:hover { opacity: 0.7; background-color: white; border-radius: 25px; }
 
-.productos .productos__mates .productos__torpedo { width: 40%; height: 50vh; background-image: url("https://scontent.faep8-1.fna.fbcdn.net/v/t1.6435-9/77390658_118301619631246_4630732467513327616_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=cfBsiqFV_uEAX8DJzZd&_nc_ht=scontent.faep8-1.fna&oh=58058d328eb70184ef5472a5490209d7&oe=61481244"); background-size: cover; background-position: center; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; border-radius: 25px; }
+.productos .productos__mates .productos__torpedo { width: 40%; height: 50vh; background-image: url("https://scontent.faep8-1.fna.fbcdn.net/v/t1.6435-9/75561565_112391666888908_7105350764993708032_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=JxrKxSEJLz0AX_8B6vm&_nc_ht=scontent.faep8-1.fna&oh=1cbdc1ec725d895e4cbbafa3a3456cdc&oe=61738A57"); background-size: cover; background-position: center; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; border-radius: 25px; }
 
 .productos .productos__mates .productos__torpedo .productos__link { text-decoration: none; }
 
@@ -95,7 +97,7 @@ h5 { font-size: 10px; font-family: "Indie Flower", cursive; color: black; font-w
 
 .camio .camio__galeria .camio__imagen .camio__img { width: 90%; height: auto; border-radius: 25px; }
 
-@media (max-width: 320px) { .secMates { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; -webkit-box-align: center; -ms-flex-align: center; align-items: center; width: 100%; height: 50vh; }
+@media (max-width: 425px) { .secMates { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; -webkit-box-align: center; -ms-flex-align: center; align-items: center; width: 100%; height: 50vh; }
   .productos { width: 100%; }
   .productos .productos__mates { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
   .productos .productos__mates .productos__camionero { width: 80%; height: 50vh; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; border-radius: 25px; }
